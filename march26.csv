@@ -1,10 +1,10 @@
-﻿metric,fraser,interior,vancouver_Island,northern,vancouver Coastal,total_BC,date
-total_cases,241,62,52,11,359,725,26-03-2020
-new_cases,23,16,5,2,20,66,26-03-2020
-new_cases_median_age,51,49,49,53,53,52,26-03-2020
-new_cases_females,126,32,29,7,177,371/670,26-03-2020
-ever_hospitalized,56,8,5,1,40,110,26-03-2020
-ever_hospitalized_median_age,69,55,71,-,71,68,26-03-2020
-deaths,2,0,0,0,12,14,26-03-2020
-deaths_median_age,84,-,-,-,86,86,26-03-2020
-recovered,5,9,8,5,159,186,26-03-2020
+﻿metric,fraser,interior,vancouver_island,northern,vancouver_coastal,total_bc,date
+total_cases,241,62,52,11,359,725,26-3-2020
+new_cases,23,16,5,2,20,66,26-3-2020
+new_cases_median_age,51,49,49,53,53,52,26-3-2020
+new_cases_females,126,32,29,7,177,371/670,26-3-2020
+ever_hospitalized,56,8,5,1,40,110,26-3-2020
+ever_hospitalized_median_age,69,55,71,-,71,68,26-3-2020
+deaths,2,0,0,0,12,14,26-3-2020
+deaths_median_age,84,na,na,na,86,86,26-3-2020
+recovered,5,9,8,5,159,186,26-3-2020
