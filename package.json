@@ -1,0 +1,19 @@
+{
+  "name": "covid19data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HakaiInstitute/covid19data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HakaiInstitute/covid19data/issues"
+  },
+  "homepage": "https://github.com/HakaiInstitute/covid19data#readme"
+}
