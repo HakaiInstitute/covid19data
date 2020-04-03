@@ -17,9 +17,7 @@ for filename in os.listdir(os.getcwd()):
   if filename.endswith(".csv") and filename != 'covid19data.csv' and filename != 'test.csv' and not filename.endswith('chart.csv'):
     with open(os.path.join(os.getcwd(), filename), mode='r', encoding='utf-8-sig') as csvFile:
       dataArray = csv.DictReader(csvFile, delimiter=',')
-      # print(dataArray, filename)
       for row in dataArray:
-        # print(filename, row)
         if (row['metric'] == 'total_cases'):
           total_cases_chart.append(row)
         if (row['metric'] == 'new_cases'):
