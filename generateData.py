@@ -29,7 +29,7 @@ for filename in os.listdir(os.getcwd()):
         if (row['metric'] == 'recovered'):
           recovered_chart.append(row)
       
-  print('total_cases_chart:', total_cases_chart)
+  # print('total_cases_chart:', total_cases_chart)
   writeDataToFile('total_cases_chart.csv', total_cases_chart)
   writeDataToFile('new_cases_chart.csv', new_cases_chart)
   writeDataToFile('ever_hospitalized_chart.csv', ever_hospitalized_chart)
