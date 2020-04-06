@@ -18,12 +18,3 @@ function changeChart(chartId) {
     }
   }
 }
-// const charts = document.getElementsByClassName('chart')
-// for (let chart of charts) {
-//   if(chart.className.includes('total_')) {
-//     chart.hidden = false
-//   }
-//   else {
-//     chart.hidden = true
-//   }
-// }
