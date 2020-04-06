@@ -1,12 +1,37 @@
-<div width="500" >
-  <iframe title="BC Covid19 Total Cases by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-BlPoI" src="//datawrapper.dwcdn.net/BlPoI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 25%; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-  </script>
-  <iframe title="BC Covid19 New Cases by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-SUBYl" src="//datawrapper.dwcdn.net/SUBYl/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 25%; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-  </script>
-  <iframe title="BC Covid19 Cases Ever Hospitalized by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-bfwVz" src="//datawrapper.dwcdn.net/bfwVz/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 25%; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-  </script>
-  <iframe title="BC Covid19 Recovered Cases by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-ZMj0A" src="//datawrapper.dwcdn.net/ZMj0A/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 25%; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-  </script>
-  <iframe title="BC Covid19 Deaths by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-zrtZk" src="//datawrapper.dwcdn.net/zrtZk/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 25%; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-  </script>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src='../js/index.js'></script>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<div width="330" >
+  <div class='chart totalCases'>
+    <iframe title="BC Covid19 Total Cases by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-BlPoI" src="//datawrapper.dwcdn.net/BlPoI/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 33% !important; border: none; min-height: 400;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+    </script>
+  </div>
+  <div class='chart newCases' hidden=true>
+    <iframe title="BC Covid19 Daily New Cases by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-SUBYl" src="//datawrapper.dwcdn.net/SUBYl/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 33% !important; border: none; min-height: 400;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+    </script>
+  </div>
+  <div class='chart everHospitalized' hidden=true>
+    <iframe title="BC Covid19 Total Cases Ever Hospitalized by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-bfwVz" src="//datawrapper.dwcdn.net/bfwVz/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 33% !important; border: none; min-height: 400;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+    </script>
+  </div>
+  <div class='chart recovered' hidden=true>
+    <iframe title="BC Covid19 Total Recovered Cases by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-ZMj0A" src="//datawrapper.dwcdn.net/ZMj0A/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 33% !important; border: none; min-height: 400;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+    </script>
+  </div>
+  <div class='chart deaths' hidden=true>
+    <iframe title="BC Covid19 Total Deaths by Health Authority" aria-label="Interactive line chart" id="datawrapper-chart-zrtZk" src="//datawrapper.dwcdn.net/zrtZk/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 33% !important; border: none; min-height: 400;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+    </script>
+  </div>
+  <div class='flex-container'>
+    <span> 
+      Select chart:
+    </span>
+    <button class='chartControl totalCases' style='color: red;' onclick='changeChart("totalCases")' >Total Cases</button>
+    <button class='chartControl newCases' onclick='changeChart("newCases")' >Daily New Cases</button>
+    <button class='chartControl everHospitalized' onclick='changeChart("everHospitalized")' >Ever Hospitalized Cases</button>
+    <button class='chartControl recovered' onclick='changeChart("recovered")' >Total Recovered</button>
+    <button class='chartControl deaths' onclick='changeChart("deaths")' >Total Deaths</button>
+  </div>
 </div>
