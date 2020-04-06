@@ -3,7 +3,7 @@ import os
 
 def writeDataToFile (fileName: str, data: list):
    with open(fileName, 'w', newline='') as newFile:
-    dataWriter = csv.DictWriter(newFile, delimiter=',', fieldnames=['metric','date', 'fraser', 'interior', 'vancouver_island', 'northern', 'vancouver_coastal', 'total_bc'])
+    dataWriter = csv.DictWriter(newFile, delimiter=',', fieldnames=['metric','date', 'Fraser', 'Interior', 'Vancouver Island', 'Northern', 'Vancouver Coastal', 'Total BC'])
     dataWriter.writeheader()
     dataWriter.writerows(data)
 
