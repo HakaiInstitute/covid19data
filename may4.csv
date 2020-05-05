@@ -1,0 +1,10 @@
+﻿metric,Fraser,Interior,Vancouver Island,Northern,Vancouver Coastal,Total BC,date
+total_cases,1027,177,124,51,845,2224,4-5-2020
+new_cases,14,0,0,1,4,19,4-5-2020
+new_cases_median_age,51,48,52,47,56,52,4-5-2020
+new_cases_females,500,88,68,30,466,1152/2219,4-5-2020
+ever_hospitalized,224,29,25,12,166,456,4-5-2020
+ever_hospitalized_median_age,70,62,72,48,69,69,4-5-2020
+deaths,37,2,4,0,74,117,4-5-2020
+deaths_median_age,82,73,86,na,87,85,4-5-2020
+recovered,537,157,105,43,575,1417,4-5-2020
